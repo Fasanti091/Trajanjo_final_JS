@@ -29,8 +29,8 @@ const swaggerSpecOptions = {
   definition: {
     openapi: "3.0.1",
     info: {
-      title: "Distribuidora Bescos",
-      description: "Aplicación de Distribuidora Bescos, e-commerce",
+      title: "RedBull",
+      description: "Aplicación de RedBull, e-commerce",
     },
   },
   apis: [`${__dirname}/docs/**/*.yml`],
