@@ -157,8 +157,8 @@
 
 .card {
   display: flex;
-  width: 250px;
-  height: 400px;
+  width: auto;
+  height: auto;
   border-radius: 15px;
   margin: 5px 15px;
   box-shadow: 0 2px 12px 6px rgba(0, 0, 0, 0.2);
