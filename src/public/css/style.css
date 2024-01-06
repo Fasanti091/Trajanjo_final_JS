@@ -157,8 +157,8 @@
 
 .card {
   display: flex;
-  width: auto;
-  height: auto;
+  width: 250px;
+  height: 400px;
   border-radius: 15px;
   margin: 5px 15px;
   box-shadow: 0 2px 12px 6px rgba(0, 0, 0, 0.2);
@@ -169,11 +169,11 @@
   align-items: center;
   box-sizing: border-box;
 }
-/* .card-img {
-  width: 100px;
+.card-img {
+  width: 100%;
   max-height: 100px;
   padding: 5px;
-} */
+}
 
 .card-body {
   width: 200px;
