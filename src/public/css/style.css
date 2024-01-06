@@ -4,7 +4,7 @@
 }
 
 .contenedorPrincipal {
-  display: flex;
+  position: relative;
   width: 100%;
   margin: 20px;
   flex-direction: row;
@@ -148,7 +148,13 @@
   background-color: aqua;
 }
 .container {
- 
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 .card {
