@@ -148,11 +148,15 @@
   background-color: aqua;
 }
 .container {
-  justify-content: space-around;
-  align-items: center;
+  display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 768px; 
+  margin: 50px auto; 
+  padding: 0 20px; 
   flex-wrap: wrap;
-  align-content: center;
 }
 
 .card {
