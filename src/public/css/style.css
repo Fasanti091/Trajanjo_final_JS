@@ -68,6 +68,11 @@
   width: 300px;
 }
 
+#contenedorPadre {
+  width: 400px;
+  height: 400px;
+}
+
 .btnContainerSocial {
   width: 50%;
   display: flex;
