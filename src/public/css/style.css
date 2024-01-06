@@ -69,7 +69,7 @@
 }
 
 #contenedorPadre {
-  position: absolute;
+  width: 100%;
 }
 
 .btnContainerSocial {
