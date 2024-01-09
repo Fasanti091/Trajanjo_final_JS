@@ -19,6 +19,7 @@ const schema = new mongoose.Schema(
     },
     password: {
       type: String,
+      required: true,
     },
     role: {
       type: String,
@@ -40,7 +41,7 @@ const schema = new mongoose.Schema(
     last_connection: {
       type: Date,
       default: new Date().toISOString(),
-    }
+    },
   },
   {
     timestamps: true,

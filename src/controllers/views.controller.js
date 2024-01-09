@@ -3,9 +3,13 @@ import {
   cartsService,
   ticketsService,
 } from "../services/index.js";
+
 import jwt from "jsonwebtoken";
+
 import config from "../config/config.js";
+
 import { getValidFilters } from "../utils.js";
+
 import myErrorHandler from "../helpers/myErrorHandler.js";
 
 const home = async (req, res, next) => {
