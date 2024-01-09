@@ -40,7 +40,7 @@ const schema = new mongoose.Schema(
     last_connection: {
       type: Date,
       default: new Date().toISOString(),
-    },
+    }
   },
   {
     timestamps: true,
